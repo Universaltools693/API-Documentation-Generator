@@ -1,0 +1,157 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Ad Placeholder */
+.ad-placeholder {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1c2526;
+    margin: 20px 0;
+}
+
+.ad-banner .ad-content {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+    background-color: #121212;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: justify;
+}
+
+/* Tool Section */
+.tool-section {
+    padding: 60px 0;
+    background-color: #0a0a0a;
+}
+
+.tool-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tool-section p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tool-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#apiInput {
+    background-color: #1c2526;
+    color: #ffffff;
+    border: none;
+    font-family: 'Courier New', monospace;
+}
+
+#generateBtn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+#generateBtn:hover {
+    transform: scale(1.05);
+}
+
+.output {
+    background-color: #1c2526;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.output pre {
+    margin: 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #1c2526;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.footer a {
+    color: #ff8e53;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .about-section h2,
+    .tool-section h2 {
+        font-size: 2rem;
+    }
+
+    .ad-content {
+        font-size: 1rem;
+        padding: 15px;
+    }
+}
