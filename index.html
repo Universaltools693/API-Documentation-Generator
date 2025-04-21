@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation Generator - Advanced Tool</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-dark.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>API Documentation Generator</h1>
+            <p>Create professional API documentation with ease.</p>
+        </div>
+    </header>
+
+    <!-- Ad Placeholder: Top Banner -->
+    <div class="ad-placeholder ad-banner">
+        <div class="ad-content">Ad Space: Top Banner (728x90)</div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2>Welcome to Our API Documentation Tool</h2>
+            <p>
+                Our advanced API Documentation Generator is designed to help developers create clean, professional, and well-structured API documentation in seconds. Whether you're building REST APIs, GraphQL, or any other type, our tool simplifies the process by transforming your API specifications into beautifully formatted documentation.
+            </p>
+            <p>
+                With a focus on usability and performance, this tool is perfect for teams and individual developers alike. Simply input your API details in JSON format, and our generator will produce a ready-to-use documentation page with code samples, endpoints, and descriptions.
+            </p>
+            <p>
+                Explore the features below and start generating your API documentation today. Scroll down to access the tool and see how it can streamline your workflow.
+            </p>
+        </div>
+    </section>
+
+    <!-- Ad Placeholder: Mid Banner -->
+    <div class="ad-placeholder ad-banner">
+        <div class="ad-content">Ad Space: Mid Banner (728x90)</div>
+    </div>
+
+    <!-- Tool Section -->
+    <section id="tool-section" class="tool-section">
+        <div class="container">
+            <h2>Generate Your API Documentation</h2>
+            <p>Enter your API details in JSON format below and click "Generate" to create your documentation.</p>
+            <div class="tool-container">
+                <textarea id="apiInput" class="form-control" rows="10" placeholder='{
+    "name": "Sample API",
+    "version": "1.0.0",
+    "endpoints": [
+        {
+            "path": "/users",
+            "method": "GET",
+            "description": "Retrieve a list of users"
+        }
+    ]
+}'></textarea>
+                <button id="generateBtn" class="btn btn-primary mt-3">Generate Documentation</button>
+                <div id="output" class="output mt-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ad Placeholder: Bottom Banner -->
+    <div class="ad-placeholder ad-banner">
+        <div class="ad-content">Ad Space: Bottom Banner (728x90)</div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 API Documentation Generator. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
