@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-dark.min.css">
     <link rel="stylesheet" href="styles.css">
-    <!-- AdCash Library Include -->
+    <!-- AdCash Library Include (Included only once) -->
     <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
 </head>
 <body>
@@ -19,9 +19,13 @@
         </div>
     </header>
 
-    <!-- Ad Placeholder: Top Banner -->
+    <!-- Ad: Top Banner -->
     <div class="ad-placeholder ad-banner">
-        <div class="ad-content">Ad Space: Top Banner (728x90)</div>
+        <script type="text/javascript">
+            aclib.runAutoTag({
+                zoneId: 'og13ab6waj'
+            });
+        </script>
     </div>
 
     <!-- About Section -->
@@ -40,9 +44,13 @@
         </div>
     </section>
 
-    <!-- Ad Placeholder: Mid Banner -->
+    <!-- Ad: Mid Banner -->
     <div class="ad-placeholder ad-banner">
-        <div class="ad-content">Ad Space: Mid Banner (728x90)</div>
+        <script type="text/javascript">
+            aclib.runAutoTag({
+                zoneId: 'amhprbsaxc'
+            });
+        </script>
     </div>
 
     <!-- Tool Section -->
@@ -68,9 +76,13 @@
         </div>
     </section>
 
-    <!-- Ad Placeholder: Bottom Banner -->
+    <!-- Ad: Bottom Banner -->
     <div class="ad-placeholder ad-banner">
-        <div class="ad-content">Ad Space: Bottom Banner (728x90)</div>
+        <script type="text/javascript">
+            aclib.runAutoTag({
+                zoneId: 'rcdtbjn5dq'
+            });
+        </script>
     </div>
 
     <!-- Footer -->
@@ -80,13 +92,6 @@
             <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
         </div>
     </footer>
-
-    <!-- Ad Tag Code -->
-    <script type="text/javascript">
-        aclib.runAutoTag({
-            zoneId: 'og13ab6waj'
-        });
-    </script>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
